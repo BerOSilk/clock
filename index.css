@@ -1,0 +1,28 @@
+img{
+    position: fixed;
+    width: 500px;
+    height: 500px;
+}
+
+div{
+    position: absolute;
+    transform-origin: bottom;
+}
+
+#seconds{
+    width: 5px;
+    height: 180px;
+    background-color: red;
+}
+
+#minutes{
+    width: 10px;
+    background-color: black;
+    height: 130px;
+}
+
+#hours{
+    width: 10px;
+    background-color: black;
+    height: 100px;
+}
