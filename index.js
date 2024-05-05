@@ -25,8 +25,8 @@ function loop(){
     const date = new Date();
 
     var sec_rotate = date.getSeconds() * 6;
-    var min_rotate = date.getMinutes() * 6;
-    var hr_rotate = date.getHours() * 5 * 6;
+    var min_rotate = date.getMinutes() * 6 + (date.getSeconds() * 0.1);
+    var hr_rotate = 30 * date.getHours() + date.getMinutes() / 2;   
 
     sec.style.transform = "rotate(" + sec_rotate + "deg)";
     min.style.transform = "rotate(" + min_rotate + "deg)";
