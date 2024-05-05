@@ -7,6 +7,7 @@ img{
 div{
     position: absolute;
     transform-origin: bottom;
+    border-radius: 50px;
 }
 
 #seconds{
